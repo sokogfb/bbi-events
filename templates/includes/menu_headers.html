@@ -25,7 +25,7 @@
                                 <li class="nav-item">
                                     <a href="  {% url 'home:gallery' %} " class="nav-link ">Gallery</a>
                                 </li>
-                                <li class="nav-item dropdown">
+                             {% comment %}   <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                        data-toggle="dropdown" aria-haspopup="true"
                                        aria-expanded="false">
@@ -36,7 +36,7 @@
                                         <div class="dropdown-divider"></div>
                                         <a class="dropdown-item" href=" {% static 'about.html' %} ">About</a>
                                     </div>
-                                </li>
+                                </li>{% endcomment %}
                                 <li class="nav-item">
                                     <a href=" {% url 'home:contact' %}" class="nav-link">Contact</a>
                                 </li>
