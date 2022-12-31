@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'web_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'intimeparkers',
+        'NAME': 'bbievents$default',
         'USER': 'bbievents',
         'PASSWORD': 'MGICZambia@2022@',
         'HOST': 'bbievents.mysql.pythonanywhere-services.com',
