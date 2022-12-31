@@ -25,18 +25,18 @@
                                 <li class="nav-item">
                                     <a href="  {% url 'home:gallery' %} " class="nav-link ">Gallery</a>
                                 </li>
-                             {% comment %}   <li class="nav-item dropdown">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                        data-toggle="dropdown" aria-haspopup="true"
                                        aria-expanded="false">
                                         Pages
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href=" {% static 'codes.html' %} ">Codes</a>
+                                        <a class="dropdown-item" href=" {% url 'home:index' %} ">Codes</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href=" {% static 'about.html' %} ">About</a>
+                                        <a class="dropdown-item" href=" {% url 'home:index' %} ">About</a>
                                     </div>
-                                </li>{% endcomment %}
+                                </li>
                                 <li class="nav-item">
                                     <a href=" {% url 'home:contact' %}" class="nav-link">Contact</a>
                                 </li>
