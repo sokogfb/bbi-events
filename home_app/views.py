@@ -2,16 +2,20 @@ from django.shortcuts import render
 
 
 def about(request):
-    return render(request, template_name="about.html")
+    template_name = 'about.html'
+    return render(request, template_name)
 
 
 def contact(request):
-    return render(request, template_name="contact.html")
+    template_name = 'contact.html'
+    return render(request, template_name)
 
 
 def gallery(request):
-    return render(request, template_name="gallery.html")
+    template_name = 'gallery.html'
+    return render(request, template_name)
 
 
 def index(request):
-    return render(request, template_name="index.html")
+    template_name = 'index.html'
+    return render(request, template_name)

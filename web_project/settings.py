@@ -24,7 +24,7 @@ SECRET_KEY = 'pes$x04oj8#g48znwr@&c^&vysym=iqs)w21#dsqzege%+_feu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bbievents.pythonanywhere.com']
+ALLOWED_HOSTS = ['bbievents.pythonanywhere.com','127.0.0.1']
 
 # Application definition
 
